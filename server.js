@@ -13,7 +13,7 @@ app.use(cors());
 app.use("/api/progress", progressRoutes);
 
 // Mount quiz routes
-app.use("/api", quizRoutes);
+app.use("/api/quiz", quizRoutes);
 
 // MongoDB Connection
 mongoose
